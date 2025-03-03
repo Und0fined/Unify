@@ -1,0 +1,13 @@
+### TEST GET / ###
+GET http://localhost:8383
+###
+
+POST http://localhost:8383/api/data
+Content-Type: application/json
+
+{
+    "name" : "whynoT"
+}
+
+###
+DELETE http://localhost:8383/api/data/endpoint
